@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+  background-color: #0F1111;
+  list-style: none;
+  width: 100%;
+  height: 112px;
+}
+
+#logo {
+  width: 4.43rem;
+  height: 3.125rem;
+  margin: 30px
+}
+#search {
+  width: 30%;
+  height: 30%;
+  background-color: #282828;
+  color: white;
+  border-radius: 7px;
+  margin-left: -30px;
+}
+.separacao {
+  margin-left: 200px;
+
+}
+.header a {
+  
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  
+
+}
+.buttom {
+  display: inline-flex;
+  padding: 13.5px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #FFC700;
+}
+ 
+.titulo_ajuda {
+  
+  padding: 50px 100px;
+  font-family: Newsreader;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+  color: #000;
+  
+}
+.subtitulo_ajuda {
+
+  margin: 80px 200px;
+  color: #000;
+  font-family: Newsreader;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+
+}
+hr {
+  margin-left: 100px;
+  width: 70%;
+}
+.help_buttom_top {
+  
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 100px auto;
+  /*
+  gap: 300px;
+  margin-top: 100px;
+  margin-left: 15em;*/
+}
+
+
+.buttom_pedido {
+  /*align text with image*/
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /*Design buttom*/
+  padding: 15px 100px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 15px;
+  margin: 15px;
+  color: #FFF;
+
+}
+.buttom_endereco {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 15px 106px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-decoration: none;
+  margin: 15px;
+  color: #FFF;
+
+}
+.buttom_problema {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 15px 116px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-decoration: none;
+  margin: 15px;
+  color: #FFF;
+
+
+}
+.buttom_denunciar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 15px 96px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-decoration: none;
+  margin: 15px;
+  color: #FFF;
+
+}
+.buttom_suporte {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 15px 99px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-decoration: none;
+  margin: 15px;
+  color: #FFF;
+
+
+}
+.buttom_pagamento {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 15px 75px;
+  border-radius: 8px;
+  background: #CBCBCB;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-decoration: none;
+  margin: 15px;
+  color: #FFF;
+
+}
+.footer_top {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+  height: 245px;
+  background-color: #FFC700;
+
+ 
+}
+.footer_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background: #333;
+  color: #FFF;
+  font-family: Inter;
+  
+}
+

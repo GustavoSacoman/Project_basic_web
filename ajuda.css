@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=DM+Serif+Display&display=swap');
+
+@media screen and (max-height: 3000px) {
+
+
+.ajuda_titulo {
+
+  font-size: 2rem;
+  font-family: 'DM Serif Display', serif;
+  margin-left: 20%;  
+}
+
+.ajuda_subtitulo {
+
+  font-size: 1.3rem;
+  font-family: 'DM Serif Display', serif;
+  margin-left: 15%;
+
+}
+.opcoes_ajuda {
+
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+}
