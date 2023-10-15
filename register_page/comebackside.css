@@ -1,0 +1,31 @@
+.comeBackSide {
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #ffc700;
+    height: inherit;
+    width: 50%;
+}
+.left-top-text {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.left-comeback-div {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn {
+    border-radius: 70px;
+    background: #000;
+    color: #ffc700;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border: transparent;
+}
