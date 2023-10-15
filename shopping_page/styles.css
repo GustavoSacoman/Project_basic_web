@@ -1,0 +1,125 @@
+/*Padrão*/
+
+#compras {
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: -100px;
+  max-width: 1300px;
+  margin: 100px auto;
+
+  
+}
+#compras img {
+  margin-top: 300px;
+  width:500px;
+  height: 680px;
+
+}
+#nome_produto {
+
+   font-size: 80px;
+   margin-top: 200px;
+   margin-left: 110px;
+   list-style: none;
+
+}
+#site_official {
+
+  font-size: 32px;
+  margin-left: 110px;
+  list-style: none;
+  text-decoration: none;
+}
+#site_official a {
+
+  text-decoration: none;
+  color: #7791EF;
+  font-family: Nokora;
+  font-size: 40px;
+
+}
+#preco_antes {
+
+  font-size: 23px;
+  margin-top: 60px;
+  margin-left: 110px;
+  list-style: none;
+}
+#preco_agora {
+
+  font-size: 45px;
+  margin-top: 20px;
+  margin-left: 110px;
+  list-style: none;
+
+}
+#buy_bts {
+
+  margin-top: 90px;
+  margin-left: 110px;
+  width: 500px;
+  height: 70px;
+
+  background-color: #FFC700;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+#car_bts {
+
+  margin-top: 70px;
+  margin-left: 110px;
+  width: 500px;
+  height: 70px;
+
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  border-radius: 10px;
+ 
+
+}
+td {
+  border:  0.1px solid #A4A4A4;
+  padding: 10px;
+  text-align: center;
+
+}
+table {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 100px auto;
+  width: 70%;
+  height: 100px;
+  
+  
+  
+}
+table td {
+
+  width: 500px;
+  color: #333;
+
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 20px;
+  
+
+
+}
+caption {
+  
+
+  color: black;
+  font-size: 40px;
+}
+
