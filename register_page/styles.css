@@ -1,3 +1,6 @@
+body {
+    min-width: 900px;
+}
 .sla {
     display: flex;
     align-items: center;
@@ -6,7 +9,7 @@
 }
 .container {
     display: inline-flex;
-    width: 70%;
+    width: 80%;
     height: 65vh;
     border-radius: 20px;
     background: #282828;
