@@ -1,28 +1,42 @@
 body {
     background-color: #e7e7e7;
 }
-.div_btn {
+
+.container {
     display: flex;
+    justify-content: center;
+}
+
+.div-btn {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 1300px;
-    margin: 100px auto;
 }
 
-.div_btn img {
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
+.add-cart-btn {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ffc700;
+    background: #ffc700;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-.help_btns {
+
+.help-btns {
     /*align text with image*/
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     gap: 5px;
-    width: 20%;
-    height: 30em;
+    width: 10%;
+    height: 30vh;
 
     /*Design buttom*/
     padding: 15px 90px;
@@ -32,4 +46,19 @@ body {
     font-size: 15px;
     margin: 15px;
     color: black;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 170%;
+}
+
+.teste img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
 }
