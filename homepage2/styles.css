@@ -1,0 +1,35 @@
+body {
+    background-color: #e7e7e7;
+}
+.div_btn {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 100px auto;
+}
+
+.div_btn img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.help_btns {
+    /*align text with image*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+    height: 30em;
+
+    /*Design buttom*/
+    padding: 15px 90px;
+    border-radius: 8px;
+    background: #fff;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 15px;
+    color: black;
+}

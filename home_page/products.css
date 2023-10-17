@@ -7,13 +7,14 @@
 }
 .products {
     display: flex;
+
     align-items: center;
     height: 20vh;
     width: 50%;
 }
 
 .products-frame {
-    border: black solid 1px;
+    border: black solid 2px;
     border-color: #282828;
     border-radius: 10px;
     background-color: #fff;
@@ -27,6 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 20vh;
 }
 .product-img img {
@@ -36,4 +38,8 @@
     display: flex;
     justify-content: center;
     height: 50%;
+}
+
+#bottom {
+    margin-top: 5vh;
 }
