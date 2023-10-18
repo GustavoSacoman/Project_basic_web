@@ -81,3 +81,7 @@ body {
     object-fit: cover;
     border: 5px solid black;
 }
+.teste a {
+  
+    text-decoration: none;
+}
