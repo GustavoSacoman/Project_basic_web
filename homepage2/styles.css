@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: Arial;
 }
 
 .add-cart-btn {
@@ -27,9 +28,8 @@ body {
     font-size: 15px;
 }
 
-
 .help-btns {
-    /*align text with image*/
+   
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -38,7 +38,7 @@ body {
     width: 10%;
     height: 30vh;
 
-    /*Design buttom*/
+    
     padding: 15px 90px;
     border-radius: 8px;
     background: #fff;
@@ -62,10 +62,22 @@ body {
     width: auto;
     height: auto;
 }
-.teste a {
-
-    padding-top: 15px;
-    color: #7791EF;
-    text-decoration: none;
-    font-size: 20px;
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info p {
+    font-size: 17px;
+}
+.info span {
+    position: relative;
+    top: -0.3em;
+    font-size: 11px;
+}
+.five-stars-rate {
+    width: 50px; /* width of container /
+    height: 30px; / height of container */
+    object-fit: cover;
+    border: 5px solid black;
 }
