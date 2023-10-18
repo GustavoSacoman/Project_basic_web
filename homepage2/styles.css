@@ -62,3 +62,10 @@ body {
     width: auto;
     height: auto;
 }
+.teste a {
+
+    padding-top: 15px;
+    color: #7791EF;
+    text-decoration: none;
+    font-size: 20px;
+}
