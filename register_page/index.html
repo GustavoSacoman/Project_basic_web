@@ -1,7 +1,3 @@
-<!--Alterei a register page para que fosse separado a pagina de login e a pagina de register-->
-<!--Alterei a imagem do nav para um carrinho literalmente ao inves de um botao-->
-<!--Fiz o botao login aparecer um lugar onde possa ser colocado seu login e sua senha e também criei um arquivo em javascript com um add para quando ocorrer o active ele aparece essa parte de colocar o login e a senha-->
-<!--Troquei o nome sla para general e coloquei ele como id e depois usei ele na criação do js para ativar o botão com isso fiz algumas alterações no html e css como colocar duas novas div's que estão na área de login/ adicionei um novo comando para o botão register que tem a mesma função do botão de login de ativar -->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -16,7 +12,6 @@
         <link rel="icon" href="../assets/logo/icon.jpg" />
         <link rel="stylesheet" href="comebackside.css" />
         <link rel="stylesheet" href="rightside.css" />
-        <link rel="stylesheet" href="login.css">
     </head>
 
     <body>
@@ -43,53 +38,104 @@
                 <li><a href="../register_page/index.html">Entrar</a></li>
                 <li>
                     <a id="cart_btn" href="#">
-                       <img src="../assets/icons_nav/carrinho-de-compras.png" alt="Carrinho de compras" width="25px">
+                        Carrinho 
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <div id="general">
+        <div class="sla">
             <div class="container">
-                <div id="comeBackSide">
+                <div class="comeBackSide">
                     <div class="left-top-text">
                         <h1 class="top-text">
                             <b>Seja bem-vindo de volta!</b>
                         </h1>
                     </div>
-                    <div class="input-container-login">
-                        <input type="text" id="login" class="text-inputs">
-                        <label for="login">Login</label>
-                    </div>
-                    <div class="input-container-login">
-                        <input type="password" id="senha" class="text-inputs">
-                        <label for="senha">Senha</label>
-                    </div>
-                    <div>
-                        <button id="confirm-login">
-                            <b>Login</b>
-                        </button>
-                    </div>
-                        <div>
-                            <button id="login-btn">
+                    <div class="left-comeback-div">
+                        <div class="login-btn-div">
+                            <button class="login-btn">
                                 <b> Login </b>
                             </button>
                         </div>
+                    </div>
                 </div>
-                <div id="rightSide">
+                <div class="rightSide">
                     <div class="right-top-div">
                         <h1 class="top-text">
                             <b>Novo por aqui?</b>
                         </h1>
                     </div>
-                    <div>
+                    <div class="right-down-div">
+                        <div class="form-div">
+                            <div class="form-top-label">
+                                <label for="registre-se"
+                                    ><b>Registre-se!</b></label
+                                >
+                            </div>
+                            <div class="form-spacing-div">
+                                <div class="form-control">
+                                    <label for="login"><b>Login</b></label>
+                                    <input id="Login" required="" />
+                                </div>
 
-                    </div>
-                    <div>
-                        <button id="register-btn">
-                            <b>Registrar</b>
-                        </button>
-                
+                                <div class="form-control">
+                                    <label for="email"><b>E-mail</b></label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        required=""
+                                    />
+                                </div>
+
+                                <div class="form-control">
+                                    <label for="endereco"
+                                        ><b>Endereço</b></label
+                                    >
+                                    <input
+                                        type="text"
+                                        id="endereco"
+                                        required=""
+                                    />
+                                </div>
+
+                                <div class="form-control">
+                                    <label for="telefone"
+                                        ><b>Telefone</b></label
+                                    >
+                                    <input
+                                        type="tel"
+                                        id="telefone"
+                                        required=""
+                                    />
+                                </div>
+
+                                <div class="form-control">
+                                    <label for="senha"><b>Senha</b></label>
+                                    <input
+                                        type="password"
+                                        id="senha"
+                                        required=""
+                                    />
+                                </div>
+
+                                <div class="form-control">
+                                    <label for="senha"
+                                        ><b>Confirmar Senha</b></label
+                                    >
+                                    <input
+                                        type="password"
+                                        id="confirmarSenha"
+                                        required=""
+                                    />
+                                </div>
+                                <div class="register-btn-div">
+                                    <button class="register-btn">
+                                        <b>Registrar</b>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,5 +202,4 @@
             </div>
         </div>
     </body>
-     <script type="text/javascript" src="script.js"></script>
 </html>
